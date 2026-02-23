@@ -20,9 +20,3 @@ Permite inserir o valor da conta, escolher a porcentagem e visualizar automatica
 - HTML5
 - CSS3
 - JavaScript (Vanilla JS)
-
----
-
-## 👨‍💻 Autor
-
-Alessandro
