@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Gorjeta</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <h1>Calculadora de Gorjetas</h1>
+
+    <form id="tip-form">
+        <label>
+            <p>$</p>
+            <input id="amount" type="number">
+        </label>
+
+        <label id="rangeLabel">
+            <p>Gorjeta:</p>
+            <input id="percent" type="range" value="0">
+            <div id="donatePercent">0%</div>
+        </label>
+    </form>
+
+    <div class="results-area">
+        <hr>
+        <h2>Resultados</h2>
+
+        <div>
+            <p>Valor dado</p>
+            <span id="tip"></span>
+        </div>
+
+        <div>
+            <p>Valor Total com Gorjeta</p>
+            <span id="total"></span>
+        </div>
+    </div>
+
+    <script src="assets/scripts/script.js"></script>
+</body>
+</html>
